@@ -116,14 +116,7 @@ p{
 .col-3 :hover{
     transform: translateY(-15px);
 }
-.exclusive{
-    background: radial-gradient(chartreuse,ghostwhite);
-    margin-top: 100px;
-    padding: 50px 0;
-}
-.col-2 .exclusive-img{
-    padding: 5px;
-}
+
 .brands{
     margin: 100px auto;
 }
@@ -241,7 +234,7 @@ select:focus{
     
 }
 /*---media query for less than 600 screen size---*/
-@media only screen and (ax-width: 600px){
+@media only screen and (max-width: 600px){
     .row{
         text-align: center;
     }
